@@ -7,6 +7,9 @@ if has("gui_macvim")
   macmenu &File.New\ Tab key=<nop>
   map <D-t> :CommandT<CR>
 
+  let g:CommandTAcceptSelectionMap='<C-t>'
+  let g:CommandTAcceptSelectionTabMap='<CR>'
+
   " Command-Shift-F for Ack
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<nop>
   map <D-F> :Ack<space>
