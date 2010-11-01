@@ -32,6 +32,10 @@ map <D-O> :NERDTreeMirror<CR>
 "map <D-S-h> <C-w>h
 "map <D-S-l> <C-w>l
 
+" Custom Key Bindings
+inoremap <D-CR> <Esc>o
+inoremap <D-C-CR>	<Esc>A;<CR> <BS>
+
 " Command-T configuration
 let g:CommandTMaxHeight=20
 
