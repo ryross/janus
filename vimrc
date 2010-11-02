@@ -99,3 +99,8 @@ color desert
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+set backupdir=~/.vimtmp
+set directory=~/.vimtmp
+
+
