@@ -192,6 +192,10 @@ vim_plugin_task "mustasche" do
   sh "curl http://github.com/defunkt/mustache/raw/master/contrib/mustache.vim > syntax/mustache.vim"
 end
 
+vim_plugin_task "ryderbeans" do
+  sh "curl http://gist.github.com/raw/660525/451f3d81a4cbc98402d608dac274ae819a2bf6ee/ryderbeans.vim > colors/ryderbeans.vim"
+end
+
 desc "Cleanup all the files"
 task :clean do
   rm_rf "tmp"

@@ -93,7 +93,7 @@ set modeline
 set modelines=10
 
 " Default color scheme
-color desert
+color ryderbeans 
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
