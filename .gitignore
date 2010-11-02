@@ -16,3 +16,5 @@ indent
 .VimballRecord
 
 *.swp
+.DS_Store
+
