@@ -36,6 +36,18 @@ map <D-O> :NERDTreeMirror<CR>
 inoremap <D-CR> <Esc>o
 inoremap <D-C-CR>	<Esc>A;<CR> <BS>
 
+" Chaning splits
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
+inoremap <C-h> <Esc><C-w>h
+inoremap <C-j> <Esc><C-w>j
+inoremap <C-k> <Esc><C-w>k
+inoremap <C-l> <Esc><C-w>l
+
+
 " Command-T configuration
 let g:CommandTMaxHeight=20
 
