@@ -8,7 +8,8 @@ if has("gui_macvim")
   map <D-t> :CommandT<CR>
 
   let g:CommandTAcceptSelectionMap='<C-t>'
-  let g:CommandTAcceptSelectionTabMap='<CR>'
+  "let g:CommandTAcceptSelectionTabMap='<CR>'
+  let g:CommandTAcceptSelectionVSplitMap='<CR>'
 
   " Command-Shift-F for Ack
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<nop>
@@ -28,7 +29,7 @@ set guioptions-=T
 set showtabline=2
 
 " Default gui color scheme
-color molokai
+"color molokai
 
 " Set Default font
 set guifont=Bitstream\ Vera\ Sans\ Mono:h8
