@@ -35,6 +35,7 @@ map <D-O> :NERDTreeMirror<CR>
 " Custom Key Bindings
 inoremap <D-CR> <Esc>o
 inoremap <D-C-CR>	<Esc>A;<CR> <BS>
+inoremap <M-BS> <Esc>db<CR>i
 
 " Chaning splits
 noremap <C-h> <C-w>h
