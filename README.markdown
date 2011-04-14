@@ -22,13 +22,13 @@ report an issue to the issue tracker.
 
 0. `for i in ~/.vim ~/.vimrc ~/.gvimrc; do [ -e $i ] && mv $i $i.old;
    done`
-1. `git clone git://github.com/carlhuda/janus.git ~/.vim`
+1. `git clone git://github.com/ryross/janus.git ~/.vim`
 2. `cd ~/.vim`
 3. `rake`
 
 or
 
-  `curl http://github.com/carlhuda/janus/raw/master/bootstrap.sh -o - | sh`
+  `curl http://github.com/ryross/janus/raw/master/bootstrap.sh -o - | sh`
 
 ## Updating to the latest version
 
